@@ -1,2 +1,2 @@
-import App from './App.svelte';
-export default new App({ target: document.getElementById('app') });
+import application from './app.svelte';
+export default new application({ target: document.getElementById('app') });
